@@ -1,0 +1,15 @@
+resets; cssreset.com
+* {
+    margin: 0;
+    padding: 0;
+  }
+nav{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;        
+    display: inline-block;
+    width: 80px;
+      }
+}

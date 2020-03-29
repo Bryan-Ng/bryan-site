@@ -1,0 +1,122 @@
+resets; cssreset.com
+html,body {
+    margin:0;
+    padding:0;
+}
+.navbar{
+    overflow: auto;
+    background-color: #949494;
+    font-family: arial,sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    display: inline-block;
+    list-style-type: none;     
+    padding: 8px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index:99;
+    background: sticky;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.navbarIcon{
+    float: left;
+    height: 36px;
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+a.navbarButton-left{
+    padding-top: 14px;
+}
+
+.navbar a:hover{
+    color: rgb(70, 70, 70);
+}
+.navbar a.active{
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 24px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+@media (max-width: 991.98px)
+    .navbar {
+      padding-right: .5rem;
+      padding-left: .5rem;
+    }
+    
+main{
+    background: whitesmoke;
+    padding: 16px;
+    color: rgb(17, 17, 17);
+    font-family: arial,sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.container{
+    padding: 80px 25px 25px 25px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.container .aboutMe{
+    padding-left: 16px;
+    padding-right: 48px;
+}
+.container .portrait{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.blog{
+    padding-left: 41px;
+    padding-right: 41px;
+}
+footer ul{
+    background-color:  #949494;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    height: 44px;
+    list-style-type: none;     
+    padding: 8px 8px 8px 49px;
+    bottom: 0;
+    width: 100%;
+}
+li a {
+    float: left;
+    display: block;
+    font-family: arial,sans-serif;
+    color: white;
+    opacity: 1;
+    padding: 13.5px 8px 13.5px 8px;
+    text-align: center;
+    text-decoration: none;
+    overflow: auto;
+}
+a:hover{
+    color: rgb(70, 70, 70);
+}
+li a.active{
+    font-weight: bold;
+    color:  rgb(70, 70, 70);
+}
