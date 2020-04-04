@@ -1,10 +1,21 @@
-resets; cssreset.com
 html,body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+    background-color: #949494;
+}
+main{
+    background: whitesmoke;
+    color: DarkSlateGray;
+    font-family: arial,sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 60px 0px 97px 0px;
+    padding: 16px;
 }
 .navbar{
-    overflow: auto;
     background-color: #949494;
     font-family: arial,sans-serif;
     font-size: 17px;
@@ -17,8 +28,8 @@ html,body {
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 100%;
-    z-index:99;
+    width: auto;
+    z-index:98;
     background: sticky;
 }
 .navbar a{
@@ -33,13 +44,10 @@ html,body {
     float: left;
     height: 36px;
     cursor: pointer;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 a.navbarButton-left{
     padding-top: 14px;
 }
-
 .navbar a:hover{
     color: rgb(70, 70, 70);
 }
@@ -56,67 +64,133 @@ a.navbarButton-left{
     margin-right: 24px;
     font-size: 17px;
     border-radius: 5px;
-}
-
-@media (max-width: 991.98px)
-    .navbar {
-      padding-right: .5rem;
-      padding-left: .5rem;
-    }
-    
-main{
-    background: whitesmoke;
-    padding: 16px;
-    color: rgb(17, 17, 17);
-    font-family: arial,sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-}
-.container{
+}   
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding: 80px 25px 25px 25px;
     position: relative;
-    display: inline-block;
-    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    height: auto;
 }
-.container .aboutMe{
-    padding-left: 16px;
-    padding-right: 48px;
+.boxAboutMe{
+    max-width: 390.5px;
+    height: 400px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    z-index: 97;
+    overflow: auto;
 }
-.container .portrait{
-    padding-left: 16px;
-    padding-right: 16px;
+.boxPortrait{
+    padding-right: 20px;
 }
-.blog{
-    padding-left: 41px;
-    padding-right: 41px;
+img.portraitMe{
+    z-index: 96;
 }
-footer ul{
+.gridArticles{
+    display: grid;
+    grid-template-rows: ;
+    padding: 40px 25px 40px 25px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
+}
+h1.aboutMeTitle{
+    padding-top: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+p.aboutMeLocation{
+    font-size: 26px;
+    font-weight: 300;
+    padding: 20px 8px;
+}
+p.aboutMeBlurb{
+    font-size: 17px;
+    padding-top: 30px;
+    font-weight: 300;
+    padding: 20px 8px;
+}
+article{
+    height: 100%;
+    width: 100%;
+    margin: 20px 8px;
+    overflow: auto;
+    max-width: 800px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    z-index: 97;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+}
+.post{
+    padding: 16px 8px;
+    text-align: left;
+}
+h1.postTitle{
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+p.postDate{
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+p.postAuthor{
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-bottom: 8px;
+}
+p.postContent{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px 20px;
+}
+footer{
     background-color:  #949494;
-    display: inline-block;
     font-family: arial,sans-serif;
     font-size: 17px;
     font-weight: 300;
-    height: 44px;
+    height: 81px;
     list-style-type: none;     
     padding: 8px 8px 8px 49px;
-    bottom: 0;
-    width: 100%;
-}
-li a {
-    float: left;
-    display: block;
-    font-family: arial,sans-serif;
+    width: auto;
     color: white;
+    position: relative;
+    margin-top: -97px;
+    clear: both;
+    z-index: 98;
+}
+li a{
+    float: left;
+    display: inline-block;
+    font-family: arial,sans-serif;
     opacity: 1;
     padding: 13.5px 8px 13.5px 8px;
     text-align: center;
     text-decoration: none;
-    overflow: auto;
+    color: white;
+}
+.footnotes{
+    font-size: 10px;
+    padding: 13.5px 57px 21.5px 8px;
+    position: absolute;
+    bottom: 0;
 }
 a:hover{
-    color: rgb(70, 70, 70);
+    color: DarkSlateGray;
 }
 li a.active{
     font-weight: bold;
-    color:  rgb(70, 70, 70);
+    color: DarkSlateGray;
 }
