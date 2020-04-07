@@ -1,2 +1,2 @@
 # bryan-site
-Personal website
+Personal website and portfolio.
