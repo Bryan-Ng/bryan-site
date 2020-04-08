@@ -17,7 +17,9 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" src="images/portrait-23.png">
     <link href="../styles/reset.css" type="text/css" rel="stylesheet" media="all">
-    <link href="../styles/style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../styles/masonrystyle.css" type="text/css" rel="stylesheet" media="all">
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/imagesloaded.pkgd.js"></script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -27,8 +29,8 @@
     </noscript>
 <!-- End Google Tag Manager (noscript) -->
     <header>
-        <div class="navbar" style="width:100%;overflow:hidden;height:44px">
-            <a class="navbarIcon-left" href="www.bryanng.ca">
+        <div class="navbar">
+            <a class="navbarIcon-left" href="index.html">
                 <img class="icon" src="../images/portrait-23.png" width="25" height="25" alt="Bryan Ng self portrait">
                 <a class="navbarButton-left" href="../index.html" title="home">Home</a>
                 <a class="navbarButton-left" href="blog.html" title="blog">Blog</a>
@@ -38,31 +40,52 @@
             <input type="text" class="navbarSearch" placeholder="Search...">
         </div>
     </header>
-        <main>  
-            <div class="containerFluid">
-                ::before
-                    <div class="contentColumn">
-                        <div class="contentGrid">
-                            <div class="project"> 
-                                <div class="titleProject">
-                                    <!--Project title-->
-                                </div>
-                                <div class="imgthumbProject">
-                                    <!--Project thumbnail image-->
-                                </div>
-                                <div class="descrProject">
-                                    <!--Project description-->
-                                </div>
-                                <div class="content"> 
-                                    <!--Content script-->
-                                </div>
-                            </div>
-                                
+    <main>  
+        <div class="containerFluid">
+            <div class="grid">
+                <div class="project"> 
+                    <div class="content"> 
+                        <div class="titleProject">
+                            <h3 class="titleProject">Bryanng.ca</h3>
+                        </div>
+                        <a href="http://bryanng.ca">
+                            <img class="imgthumbProject" src="../images/imgThumb-bryanng-site.png" alt="Thumbnail of Bryanng.ca">
+                        </a>
+                        <div class="descrProject">
+                            <p class="descrProjectHeader">Blog and portfolio. I created this website to:</p>
+                            <p class="descrProject">
+                                <br />1)Clarify my principles through action of thinking and writing them down,                                             
+                                <br />2)Share my thoughts and work (things are only of value if shared with others), and
+                                <br />3)Learn principles of design, marketing, and web development.
+                                <br />
+                            </p>
+                                <p class="descrProjectFooter">I am learning HTML, CSS, JavaScript, Git, and GitHub with TheOdinProject.com for this project. March 2020 - Present.</p>
                         </div>
                     </div>
-                </section>
+                </div>
+                <div class="project"> 
+                    <div class="content"> 
+                        <div class="titleProject">
+                            <h3 class="titleProject">Stop Scrolling!</h3>
+                        </div>
+                        <a href="https://anchor.fm/stopscrolling">
+                            <img class="imgthumbProject" src="../images/imgThumb-podcast.png" alt="Thumbnail of Stop Scrolling podcast logo">
+                        </a>
+                            <div class="descrProject">
+                            <p class="descrProjectHeader">Podcast. I cohost a podcast with my friend John Yan.</p>
+                            <p class="descrProject">
+                                <br />Our podcast discusses the interface of technology and society. 
+                                <br />Questions central to our discussions include: How does social media and artificial intelligence affect society? How can we avoid harm from these technologies?
+                                <br />Ultimately, our goal is to get people thinking.
+                                <br />
+                            </p>
+                            <p class="descrProjectFooter">We use REAPER and Audacity to record, and Anchor.fm to distribute. Aug 2019 - Present.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </main>
+        </div>
+    </main>
     <footer>
         <div class="footContainer">
             <ul class="footLinks">
