@@ -18,8 +18,6 @@
     <link rel="icon" type="image/png" src="images/portrait-23.png">
     <link href="../styles/reset.css" type="text/css" rel="stylesheet" media="all">
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="all">
-    <script src="../scripts/main.js"></script>
-    <script src="../scripts/imagesloaded.pkgd.js"></script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -30,22 +28,93 @@
 <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="navbar">
-            <a class="navbarIcon-left" href="index.html">
+            <a class="navbarIcon-left" href="../index.html">
                 <img class="icon" src="../images/portrait-23.png" width="25" height="25" alt="Bryan Ng self portrait">
                 <a class="navbarButton-left" href="../index.html" title="home">Home</a>
                 <a class="navbarButton-left" href="blog.html" title="blog">Blog</a>
                 <a class="navbarButton-left" href="projects.html" title="projects">Projects</a>
                 <a class="navbarButton-left" href="library.html" title="library">Library</a>
                 <a class="navbarButton-left" href="research.html" title="research">Research</a>
-            <input type="text" class="navbarSearch" placeholder="Search...">
+            <!-- Search Bar placeholder <input type="text" class="navbarSearch" placeholder="Search..."> -->
         </div>
     </header>
-    <main>  
-        <div class="mainContent">
-            <section>
-                <div class="grid">
+    <main> 
+        <div class="containerFluid">
+            <!-- Note, this is the RESEARCH page-->
+            <h1 class="gridTitle">Academic Papers</h1>
+            <div class="grid">
+                <div class="research"> 
+                    <div class="content"> 
+                        <div class="titleResearch">
+                            <h3 class="titleResearch">A systematic review of morbidities suggestive of the multiple sclerosis prodrome</h3>
+                        </div>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/32202173">
+                            <img class="imgthumbResearch" src="../images/imgThumb-MSProdrome.png" alt="Thumbnail of MS prodrome paper">
+                        </a>
+                        <div class="descrResearch">
+                            <p class="descrResearchHeader">Systematic Review.</p>
+                            <p class="descrResearch">
+                                Twenty-nine studies were included. Anxiety, depression, migraine, and lower cognitive performance may be a part of the MS prodrome.
+                            </p>
+                                <p class="descrResearchFooter">Published March 21, 2020.</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
+                <!-- Note, this is the RESEARCH page-->
+                <div class="research"> 
+                    <div class="content"> 
+                        <div class="titleResearch">
+                            <h3 class="titleResearch">Effects of long-term inhaled corticosteroid treatment on fragility fractures in older women: the Manitoba BMD registry study.</h3>
+                        </div>
+                        <a href="https://link.springer.com/article/10.1007/s00198-020-05361-9">
+                            <img class="imgthumbResearch" src="../images/imgThumb-COPDFracture.png" alt="Thumbnail of ICS-fracture paper">
+                        </a>
+                        <div class="descrResearch">
+                            <p class="descrResearchHeader">Retrospective Cohort Study.</p>
+                            <p class="descrResearch">
+                                Findings do not support an increased risk of major osteoporotic fracture in older women with Chronic Obstructive Pulmonary Disease and/or Asthma who use inhaled corticosteroids.
+                            </p>
+                                <p class="descrResearchFooter">Published March 02, 2020.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Note, this is the RESEARCH page-->
+                <div class="research"> 
+                    <div class="content"> 
+                        <div class="titleResearch">
+                            <h3 class="titleResearch">Student-run clinic association: the next generation of health system collaboration.</h3>
+                        </div>
+                        <a href="https://uottawa.scholarsportal.info/ottawa/index.php/uojm-jmuo/article/view/4456">
+                            <img class="imgthumbResearch" src="../images/imgThumb-SRCACommentary.png" alt="Thumbnail of SRCA commentary">
+                        </a>
+                        <div class="descrResearch">
+                            <p class="descrResearchHeader">Commentary.</p>
+                            <p class="descrResearch">
+                                Discusses the Student-Run Clinic Association as a platform for student-run clinics across Canada to collaborate and improve care to underserved populations. 
+                            </p>
+                                <p class="descrResearchFooter">Published December 28, 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Note, this is the RESEARCH page-->
+                <div class="research"> 
+                    <div class="content"> 
+                        <div class="titleResearch">
+                            <h3 class="titleResearch">The direct costs of overdiagnosed asthma in a longitudinal population-based study.</h3>
+                        </div>
+                        <a href="https://bmjopen.bmj.com/content/9/11/e031306">
+                            <img class="imgthumbResearch" src="../images/imgThumb-overdiagnosedAsthma.png" alt="Thumbnail of overdiagnosed asthma paper">
+                        </a>
+                        <div class="descrResearch">
+                            <p class="descrResearchHeader">Longitudinal population-based study.</p>
+                            <p class="descrResearch">
+                                Approximately one-quarter of patients with a previous diagnosis of asthma currently do not have asthma. The economic burden of overdiagnosed asthma may be significant.
+                            </p>
+                                <p class="descrResearchFooter">Published November 07, 2019.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -59,7 +128,6 @@
         </div>
         <div class="footnotes">
             <p>© Copyright 2020 Bryan Ng. All Rights Reserved.</p>
-            <p>Thank you @AndyBarefoot for your "Masonry style layout with CSS Grid" guide</p>
         </div>
     </footer>
 </body>
