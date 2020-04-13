@@ -12,7 +12,6 @@ main{
     background: white;
     color: #000000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
     margin: 60px 0px 81px 0px;
     padding: 40px 16px 24px 16px;
     height: auto;
@@ -87,8 +86,6 @@ a.navbarButton-left{
 .boxAboutMe{
     max-width: 390.5px;
     height: 400px;
-    background-color: #cacaca;
-    border-radius: 5px;
     z-index: 97;
     overflow: auto;
 }
@@ -103,6 +100,8 @@ h1.aboutMeTitle{
     padding-top: 40px;
     padding-left: 8px;
     padding-right: 8px;
+    font-size: 32px;
+    font-weight: 400;
 }
 p.aboutMeLocation{
     font-size: 26px;
@@ -135,12 +134,13 @@ article{
     margin: 20px 8px;
     overflow: auto;
     max-width: 800px;
-    background-color: #cacaca;
     border-radius: 5px;
     z-index: 97;
     position: relative;
     align-items: center;
     justify-items: center;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
 }
 .post{
     padding: 16px;
@@ -148,6 +148,7 @@ article{
 }
 h1.blogTitle{
     padding-bottom: 8px;
+    font-size: 32px;
 }
 h1.postTitle{
     font-size: 26px;
@@ -157,19 +158,22 @@ h1.postTitle{
 }
 p.postDate{
     font-size: 17px;
-    padding-left: 30px;
+    padding-left: 20px;
     font-weight: 300;
+    line-height: 1.5em;
 }
 p.postAuthor{
     font-size: 17px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-bottom: 8px;
     font-weight: 300;
+    line-height: 1.5em;
 }
 p.postContent{
     font-size: 14px;
     padding: 8px 20px;
     font-weight: 300;
+    line-height: 1.5em;
 }
 /*footer menu*/
 footer{
@@ -225,7 +229,8 @@ li a.active{
     width: 300px;
 }
 h1.gridTitle{
-    padding: 0px 16px 16px 16px;;
+    padding: 0px 16px 16px 16px;
+    font-size: 32px;
     text-align: center;
 }
 h2.gridSubTitle{
@@ -238,19 +243,24 @@ h2.gridSubTitle{
 h3.titleProject{
     padding: 8px;
     font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 p.descrProjectHeader{
-    padding: 8px;
+    padding: 0px 8px 8px 8px;
     font-size: 16px;
+    line-height: 1.5em;
 }
 p.descrProject{
     padding: 8px;
     font-size: 14px;
+    line-height: 1.5em;
 }
 p.descrProjectFooter{
     padding: 8px;
     font-size: 12px;
     font-style: italic;
+    line-height: 1.5em;
 }
 .imgthumbResearch{
     height: 300px;
@@ -259,29 +269,38 @@ p.descrProjectFooter{
 h3.titleResearch{
     padding: 8px;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 p.descrResearchHeader{
     padding: 8px;
     font-size: 16px;
+    line-height: 1.5em;
 }
 p.descrResearch{
     padding: 8px;
     font-size: 14px;
+    line-height: 1.5em;
 }
 p.descrResearchFooter{
     padding: 8px;
     font-size: 12px;
     font-style: italic;
+    line-height: 1.5em;
 }
 h3.titleLibrary{
     padding: 8px;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 p.descrLibraryHeader{
     padding: 8px;
     font-size: 16px;
+    line-height: 1.5em;
 }
 p.descrLibrary{
     padding: 8px;
     font-size: 14px;
+    line-height: 1.5em;
 }
